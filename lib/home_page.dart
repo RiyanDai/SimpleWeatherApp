@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 20),
                //animation
               Lottie.asset(
-                "assets/cloud",
+                getWeatherAnimation(_weather?.mainCondition),
                 width: 200,
                 height: 200,
               ),
